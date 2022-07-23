@@ -3,4 +3,4 @@ import React from 'react'
 //     return <h1>Hllow Kishor</h1>
 // }
 const Greet =() => <h1>Hllow Kishor Sarkar</h1>
-export default Greet
+export default Greet;
