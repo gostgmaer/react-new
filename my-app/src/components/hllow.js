@@ -6,7 +6,7 @@ const hellow = () => {
     //         <h1>This is RJX component</h1>
     //     </div>
     // )
-    return React.createElement('div', {id:"divhllow"}, React.createElement('h1', null, 'KIshor Sarkar'))
+    return React.createElement('div', {id:"divhllow",className:'NewCLass'}, React.createElement('h1', null, 'KIshor Sarkar'))
 }
 
 export default hellow;

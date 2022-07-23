@@ -8,11 +8,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      {/* <Greet/>
-
-      <Welcome /> */}
+      <Greet name = "Bruce" heroName="Batman">
+        <p>This is children Propertics</p>
+      </Greet>
+      <Greet name = "Diana" heroName ="Wander Women"/>
+      <Greet name = "Kishor" heroName = "Begineer"/>
+      <Greet name = "Viswas" heroName= "Tutor"/>
+      <Welcome  name = "Bruce" heroName="Batman" />
+      <Welcome name = "Diana" heroName ="Wander Women"/>
+      <Welcome name = "Kishor" heroName = "Begineer"/>
+{/* 
+      <Welcome />
         
-        <Hllow/>
+        <Hllow/> */}
       </div>
     );
   }
