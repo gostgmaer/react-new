@@ -5,6 +5,8 @@ import Greet from "./components/Creet";
 import Welcome from "./components/welcome";
 import Hllow from "./components/hllow";
 import Messagez from "./components/message";
+import Counter from './components/counter';
+
 class App extends Component {
   render() {
     return (
@@ -19,6 +21,7 @@ class App extends Component {
       <Welcome name = "Diana" heroName ="Wander Women"/>
       <Welcome name = "Kishor" heroName = "Begineer"/> */}
       <Messagez />
+      <Counter></Counter>
 {/* 
       <Welcome />
         
