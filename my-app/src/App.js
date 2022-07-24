@@ -6,6 +6,13 @@ import Welcome from "./components/welcome";
 import Hllow from "./components/hllow";
 import Messagez from "./components/message";
 import Counter from './components/counter';
+import FunctionClick from './components/functionClick';
+import ClassClick from './components/classClick';
+import EventBind from './components/eventBind';
+
+
+
+
 
 class App extends Component {
   render() {
@@ -14,18 +21,26 @@ class App extends Component {
       {/* <Greet name = "Bruce" heroName="Batman">
         <p>This is children Propertics</p>
       </Greet>
-      <Greet name = "Diana" heroName ="Wander Women"/>
+     x
       <Greet name = "Kishor" heroName = "Begineer"/>
-      <Greet name = "Viswas" heroName= "Tutor"/>
+      // 
       <Welcome  name = "Bruce" heroName="Batman" />
       <Welcome name = "Diana" heroName ="Wander Women"/>
       <Welcome name = "Kishor" heroName = "Begineer"/> */}
-      <Messagez />
-      <Counter></Counter>
+      {/* <Messagez />
+      <Counter></Counter> */}
+     
+      <Greet name="Viswas" heroName="Tutor"/>
+      <Welcome name="Diana" heroName ="Wander Women hero"/>
+      {/* <ClassClick></ClassClick> */}
+      
 {/* 
-      <Welcome />
+      
         
         <Hllow/> */}
+        {/* <Welcome /> */}
+        {/* <FunctionClick></FunctionClick> */}
+        <EventBind></EventBind>
       </div>
     );
   }
