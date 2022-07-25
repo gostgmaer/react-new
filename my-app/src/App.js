@@ -9,6 +9,9 @@ import Counter from './components/counter';
 import FunctionClick from './components/functionClick';
 import ClassClick from './components/classClick';
 import EventBind from './components/eventBind';
+import ParentComponent from './components/parentComponent';
+import UserGreeting from './components/userGreeting';
+
 
 
 
@@ -40,7 +43,9 @@ class App extends Component {
         <Hllow/> */}
         {/* <Welcome /> */}
         {/* <FunctionClick></FunctionClick> */}
-        <EventBind></EventBind>
+        {/* <EventBind></EventBind> */}
+        {/* <ParentComponent/> */}
+        <UserGreeting/>
       </div>
     );
   }
