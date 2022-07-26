@@ -11,6 +11,8 @@ import ClassClick from './components/classClick';
 import EventBind from './components/eventBind';
 import ParentComponent from './components/parentComponent';
 import UserGreeting from './components/userGreeting';
+import NameList from './components/nameList';
+
 
 
 
@@ -46,6 +48,7 @@ class App extends Component {
         {/* <EventBind></EventBind> */}
         {/* <ParentComponent/> */}
         <UserGreeting/>
+        <NameList></NameList>
       </div>
     );
   }
