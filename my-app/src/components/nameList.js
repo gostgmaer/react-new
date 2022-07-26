@@ -74,8 +74,10 @@ function nameList() {
         "gender": "Male",
         "ip_address": "234.133.104.6"
     }]
-    const PersonList = persons.map(person => (
-        <Person person= {person}/> 
+    const names =['bruce','clerk','diana','bruce']
+    const PersonList = names.map((name,index) => (
+    // <Person key={person.id} person= {person}/> 
+    <h2 key={index}>{index}{name}</h2>
     ))
     return (
         <div>

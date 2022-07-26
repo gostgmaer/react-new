@@ -12,6 +12,14 @@ import EventBind from './components/eventBind';
 import ParentComponent from './components/parentComponent';
 import UserGreeting from './components/userGreeting';
 import NameList from './components/nameList';
+import StyleSheet from './components/styleSheet';
+import Inline from './components/inline';
+
+import './appStyle.css';
+import Styles from './appStyle.module.css';
+import Form from './components/form';
+
+
 
 
 
@@ -35,8 +43,8 @@ class App extends Component {
       {/* <Messagez />
       <Counter></Counter> */}
      
-      <Greet name="Viswas" heroName="Tutor"/>
-      <Welcome name="Diana" heroName ="Wander Women hero"/>
+      {/* <Greet  name="Viswas" heroName="Tutor"/>
+      <Welcome  name="Diana" heroName ="Wander Women hero"/> */}
       {/* <ClassClick></ClassClick> */}
       
 {/* 
@@ -47,8 +55,13 @@ class App extends Component {
         {/* <FunctionClick></FunctionClick> */}
         {/* <EventBind></EventBind> */}
         {/* <ParentComponent/> */}
-        <UserGreeting/>
+        {/* <UserGreeting/>
         <NameList></NameList>
+        <StyleSheet primary={true} /> 
+        <Inline></Inline>
+        <h1 className='error' >Error</h1>
+        <h1 className={Styles.success}>Success</h1> */}
+        <Form></Form>
       </div>
     );
   }
