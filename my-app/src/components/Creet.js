@@ -2,13 +2,15 @@ import React from 'react'
 // function Greet(){
 //     return <h1>Hllow Kishor</h1>
 // }
+// const Greet = ({name,heroName}) => {
 const Greet = props => {
-    console.log(props);
+    const { name, heroName } = props
+    console.log();
     return (
         <div>
-        <h1>Hllow {props.name}</h1>
-        <span>{props.heroName}</span>
-        <span>{props.children   }</span>
+            <h1>Hllow {name}</h1>
+            <span>{heroName}</span>
+            {/* <span>{children   }</span> */}
         </div>
     )
 

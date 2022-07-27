@@ -1,0 +1,13 @@
+.primary{
+    color: red;
+}
+
+
+.fontss{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
